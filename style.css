@@ -63,13 +63,13 @@ a:hover {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   line-height: 1.1;
 }
 
 @media screen and (max-width: 960px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
