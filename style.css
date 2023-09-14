@@ -95,7 +95,7 @@ h4 {
 }
 
 h5 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin: 0 0 0.5rem 0;
   color: #333333;
 }
@@ -131,7 +131,7 @@ ul > li:before {
 }
 
 .big-paragraph {
-  font-size: 0.5rem;
+  font-size: 1.2rem;
   line-height: 1.4;
   font-weight: 500;
 }
