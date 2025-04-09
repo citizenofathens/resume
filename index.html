@@ -29,12 +29,13 @@
         <section>
             <h1>반갑습니다,<br />저는 박성민입니다<span class="period-mark">.</span></h1>
             <p class="big-paragraph">
-                안녕하세요, 데이터스트림즈 기술연구소 R&D팀에 소속된 박성민입니다.<br>
-                저는 7년차 개발자로서, 현재는 Large Language Model (LLM) 파인 튜닝을 활용하여 <br>
-                이를 통해 Chat-GPT와 같은 시스템에서 발생할 수 있는 보안 이슈를 방지하고, <br> LLM 을 연계한 Langchain 과 VectorDB를 활용하여 문서를 벡터화하고 활용하는 RAG을 계획하고 Document-QA 시스템 구축하는 작업을 진행 하였으며,<br>
-                데이터 보안 LLM 시스템을 제공하는 LLMOPS 프로젝트를 개발하고 있습니다.
-                백엔드 서버 시스템 구축 및 서비스 개발에 있어서 코드와 아키텍처의 품질 개선에 대한 지속적인 고민을 바탕으로 더 나은 솔루션 제공에 초점을 맞추고 있습니다.<br>
-                저는 작은 변화가 장기적으로 큰 영향력을 발휘한다는 것을 깊이 인식하며, <br>그러한 철학 하에 일상적인 업무를 수행합니다.
+                7년차 Python 기반 AI/ML 백엔드 개발자입니다.<p>
+                FastAPI 기반 REST API 설계 및 LangChain 및 LangGraph을 활용한 LLM 애플리케이션 구축, 오픈소스 LLM (Qwen, llama3, Meta 등)과<p>
+                모델 엔진 + OpenWebUI 기반 컨테이너를 배포 및 사용하도록 하는 LLMOPS 플랫폼을 Docker + K8s 환경에 배포한 경험이 있으며,<p>
+                문서 분류/질의응답 등 프로젝트에서 RAG 시스템을 설계하였습니다.<p>
+                또한, API 기획과 Confluence 기반 기술 문서 작성까지 경험하고 있으며,<p>
+                ML 모델 파인튜닝(QLoRA, IA3), AWS SageMaker 활용, 벡터DB 연동 등도 수행해왔습니다.<p>
+                백엔드 서버 시스템 구축 및 서비스 개발에 있어서 코드와 아키텍처의 품질 개선에 대한 지속적인 고민을 바탕으로 더 나은 솔루션 제공에 초점을 맞추고 있습니다.<p>
                 <br><br>
             </p>
         </section>
@@ -55,19 +56,19 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - vLLM, Ollama 모델 엔진 구축<p>
-                            - Qwen, Meta의 오픈 소스 모델 활용<p>
-                            - vLLM,Ollama 엔진과 사용자 친화적인 OpenWebUI을 ui로 하여 Docker multi-stageㄹ 빌드하여 쿠버네티스 환경 배포<p>
-                            - 프로젝트의 기술 문서 실무 담당 (Confluence 기반)
+                            데이터 보안이 필요한 환경에 제공할 수 있는 오픈 소스 LLM을 사용하는<p>
+                            vLLM,Ollama 모델 엔진 + OpenWebUI 기반의 컨테이너를 <p>
+                            쿠버네티스 환경에서 배포 및 사용할 수 있는 llmops 플랫폼 <p>
                         </p>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
-                            <li>Docker 멀티 스테이지 빌드 구성 및 최적화</li>
-                            <li>쿠버네티스 배포 파이프라인 구축</li>
-                            <li>사용자 친화적인 OpenWebUI 통합</li>
+                            <li>vLLM,Ollama 엔진 Docker multi-stage 이미지 빌드</li>
+                            <li>사용자 친화적인 OpenWebUI 사용하여 모델 엔진과 통합</li>
+                            <li>Confluence 프로젝트의 기술 문서 실무 담당</li>
+                            <li>컨테이너를 쿠버네티스 환경에서 사용할 수 있도록 하는 서비스 개발 및 배포</li>
                         </ul>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
-                        <p>Python ,FastAPI, Docker, Kubernetes, vLLM, OpenWebUI, Ollama,vim </p>
+                        <p>Python ,FastAPI, Docker, Kubernetes, vLLM, OpenWebUI, Ollama, vim </p>
                     </div>
 
                     <div class="project">
@@ -78,20 +79,24 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - 표 형태의 데이터 세트를 자동으로 지식 그래프로 변환 방법 제시
-                            - 포렌식 데이터 그래프 구조 변환 및 시각화 시스템 개발<p>
-                            - LLM을 활용하여 이상 패턴 및 중요 연결점 자동 식별 기능 구현<p>
-                            - 1,051개의 노드와 3,000개의 릴레이션 생성<p>
-                            - 질의 테스트 결과 50개의 질의 중 90%가 데이터와 일치하여 유의미한 정답률<p>
+
+                            AI와 디지털 포렌식을 접목하여 일일이 모든 행을 확인하기 <p>
+                            어려운 형태의 포렌식 raw 데이터를 규칙 기반으로 <p>
+                            그래프 노드로 표현하고 이에 대해 LLM을 활용하여 질의응답을 할 수 있고<p>
+                            그래프 구조 변환 및 시각화하는 Graph RAG 시스템 개발<p>
                         </p>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
+                            <li>테스트 결과 50개의 질의 중 90%가 데이터와 일치하여 유의미한 정답률</li>
+                            <li>표 형태의 데이터 세트를 자동으로 지식 그래프로 변환 방법 제시</li>
                             <li>그래프 데이터베이스 노드 구조 설계 및 구현</li>
-                            <li>그래프 노드로 구성 할 수 있도록 최적의 데이터 형태 변환 </li>
+                            <li>LLM을 활용하여 이상 패턴 및 중요 연결점 자동 식별 기능 구현<li></li>
+                            <li>1,051개의 노드와 3,000개의 릴레이션 생성</li>
+                            <li>그래프 노드로 구성 할 수 있도록 최적의 데이터 형태 변환 연구</li>
                             <li>그래프 시각화 인터페이스 개발</li>
                         </ul>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
-                        <p>Python, Langchain, Langgraph , Neo4j Graph Database,streamlit </p>
+                        <p>Python, LangChain, LangGraph , Neo4j Graph Database, streamlit </p>
                     </div>
 
                     <div class="project">
@@ -102,14 +107,13 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - 사내 문서 메타데이터 추출 및 분류 개발<p>
-                            - 오픈소스 LLM (llama3) 기반 문서 내용 분석 및 메타데이터 분류 알고리즘 구현<p>
-                            - 사내 문서 분류체계에 올바르게 할당하도록 분류
-                            - 오픈 소스 모델로 해당 task 에서 llama3 모델로 gpt3.5-turbo 에 근소 우위 성능 달성
+                            - 사내 문서 메타 데이터를 추출하고 분류체계에 맞게 분류 하는 시스템 개발<p>
+                            - 사내 문서 분류체계에 올바르게 할당하도록 분류 <p>
+                            - 오픈 소스 모델로 해당 task 에서 llama3 모델로 gpt3.5-turbo 에 근소 우위 성능 달성 <p>
                         </p>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
-                            <li>문서 분류 알고리즘 설계 및 구현</li>
+                            <li>오픈소스 LLM (llama3) 기반 문서 내용 분석 및 메타데이터 분류 알고리즘 구현</li>
                             <li>학습 데이터 구축 및 모델 훈련</li>
                             <li>분류 시스템 통합 및 API 개발</li>
                         </ul>
@@ -125,17 +129,17 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - 경량화 LLM 및 RAG 기술 결합 시스템 연구 개발<p>
-                            - 제한된 컴퓨팅 자원 환경 효율적 동작 최적화 모델 아키텍처 설계<p>
-                            - 문서 검색 및 생성 통합 정확하고 신뢰할 수 있는 응답 제공 시스템 구축<p>
+                             사내 문서를 VectorDB에 구축하고 이에 대해 질의 응답할 수 있는<p>
+                             경량화된 오픈 소스 LLM을 활용한 기술 결합 시스템 연구 개발<p>
                         </p>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
-                            <li>경량화 LLM 모델 선정 및 최적화</li>
+                            <li>제한된 컴퓨팅 자원 환경별 경량화 LLM 모델 선정 및 테스트</li>
+                            <li>Spliter, Chunk size 등 </li>
                             <li>Retrieval 시스템 설계 및 구현</li>
                             <li>성능 평가 및 모델 개선</li>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
-                        <p>Python, HuggingFace, VectorDB, LangChain</p>
+                        <p>Python, HuggingFace, Chromadb, LangChain</p>
                     </div>
 
                     <div class="project">
@@ -145,13 +149,15 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - Datastreams-alpha-model 기반 Foundation model 개발 및 도메인 지식 embedding<p>
-                            - VectorDB 활용 사용자 프롬프트 기반 응답 시스템 개발<p>
-                            - Hallucination 감소 및 최신 문서 반영 시스템 개발<p>
+                            Datastreams-alpha-model(Foundation model)을 활용하여 task 를 해결 하기 위해 <p>
+                            도메인 지식을 VectorDB 활용하여  embedding하고<p>
+                            사용자 프롬프트에 대하여 RAG 기반 응답 시스템 개발<p>
+                            Hallucination 감소 시키고 최신 문서를 반영할 수 있는 시스템 개발<p>
                         </p>
                         <h5>What doing I do<span class="period-mark"></span></h5>
                         <ul>
                             <li>Ds-alpha-model - Langchain - Chromadb 연계 개발 설계</li>
+                            <li>QLoRA 및 IA3 방식 활용하여 모델 양자화 및 파인튜닝</li>
                         </ul>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
                         <p>Python, LangChain, Chroma</p>
@@ -164,16 +170,17 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - QLoRA 및 IA3 방식 활용 모델 양자화 및 파인튜닝<p>
-                            - AWS SageMaker 활용 모델 튜닝 및 하이퍼파라미터 조정<p>
-                            - NSMC benchmark 평가에서 KoAlpaca 및 Kullm 보다 높은 Acc 기록 모델 개발<p>
+                            사내 지식 문서를 LLM 에 학습 시켜 Datastreams의 기반 모델을 구축하여<p>
+                            Technical 한 task 들을 Datatrams-Alpha-Model을 Foundation Model로 하여<p>
+                            파인 튜닝하여 활용할 수 있도록 연구 개발<p>
                         </p>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
+                            <li>AWS SageMaker 활용 모델 튜닝 및 하이퍼파라미터 조정</li>
                             <li>모델 학습 데이터 변환 모듈 개발</li>
-                            <li>NSMC data 프롬프트 테스트 및 성능 평가</li>
+                            <li>NSMC benchmark 평가에서 KoAlpaca 및 Kullm 보다 높은 Acc 기록 모델 개발</li>
                             <li>Prompt Engineering 및 CoT 기반 프롬프트 구성</li>
-                            <li>EluetherAI/polyglot-ko-12.8b fine-tuning</li>
+                            <li>EluetherAI/polyglot-ko-12.8b 파인 튜닝</li>
                         </ul>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
                         <p>Python, Pytorch, IA3, LoRA</p>
@@ -186,12 +193,13 @@
                         </span>
                         <h5>Description<span class="period-mark"></span></h5>
                         <p>
-                            - 문장성분 라벨링, 지식그래프 및 데이터맵 Research<p>
-                            - 금융/제조 지식그래프 형성 목적 한국어 의존 구문 분석 및 그래프 시각화 모듈 개발<p>
-                        </p>
+                            금융/제조 지식그래프 형성 목적 한국어 의존 구문 분석 및 그래프 시각화 모듈 개발<p>
+                            금융/제조 도메인 raw 데이터의 문장성분을 라벨링<p>
+                        </br>
                         <h5>What did I do<span class="period-mark"></span></h5>
                         <ul>
                             <li>한국어 데모 의존 구문 분석그래프 생성</li>
+                            <li>지식그래프 및 데이터맵 Research</li>
                         </ul>
                         <h5>Tech Stack<span class="period-mark"></span></h5>
                         <p>Python, Networkx</p>
